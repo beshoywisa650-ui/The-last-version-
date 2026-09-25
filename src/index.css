@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'IBM Plex Sans Arabic', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  font-family: 'IBM Plex Sans Arabic', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', 'tnum' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'IBM Plex Sans Arabic', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 500;
+  color: #0F172A;
+  background-color: #F8FAFC;
+  font-size: 14.5px;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ensure all interactive controls and inputs inherit clean typography */
+button, input, select, textarea, optgroup {
+  font-family: inherit;
+}
+
+/* Tabular numbers for all monetary, numerical, and percentage figures to align columns cleanly */
+.tabular-nums, .font-mono, td[class*="text-end"], th[class*="text-end"] {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* Modern mobile smooth transitions and touch feel */
+button {
+  touch-action: manipulation;
+}
+
+/* Custom sleek scrollbar for mobile/desktop tables */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

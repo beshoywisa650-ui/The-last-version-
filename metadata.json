@@ -1,0 +1,8 @@
+{
+  "name": "Sheet Analyzer",
+  "description": "محلل شيتات ذكي وسريع يعمل بدون إنترنت لقراءة وتحليل أي ملف إكسيل أو CSV بدقة وفورية مع حفظ سجل آخر الشيتات المفتوحة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

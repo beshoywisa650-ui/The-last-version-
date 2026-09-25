@@ -1,0 +1,21 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.beshoywisa.sheetanalyzer',
+  appName: 'Sheet Analyzer',
+  webDir: 'dist',
+  plugins: {
+    SplashScreen: {
+      launchShowDuration: 0,
+      launchAutoHide: true,
+      backgroundColor: '#0A3D62',
+      showSpinner: false,
+    },
+  },
+  server: {
+    androidScheme: 'https',
+    cleartext: true,
+  },
+};
+
+export default config;

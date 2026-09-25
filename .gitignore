@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Web Production Builds
+dist/
+build/
+coverage/
+
+# OS and logs
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Android Build & Cache
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/.idea/
+android/*.iml
+android/app/*.iml
+android/local.properties

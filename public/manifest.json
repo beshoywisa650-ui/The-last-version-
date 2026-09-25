@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "Sheet Analyzer - محلل الشيتات",
+  "short_name": "محلل شيتات",
+  "description": "محلل شيتات ذكي وسريع يعمل بدون إنترنت لقراءة وتحليل أي ملف إكسيل أو CSV بدقة وفورية مع حفظ سجل آخر الشيتات المفتوحة.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0A3D62",
+  "background_color": "#F8FAFC",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
